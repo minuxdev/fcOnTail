@@ -54,7 +54,7 @@ h3{
 }
 
 .contact{
-    @apply block  md:w-2/3 m-auto
+    @apply flex justify-center items-center mx-auto my-2
 }
 
 .contact-icons {
@@ -62,8 +62,9 @@ h3{
 }
 
 .contact-info {
-    @apply block md:flex lg:flex-nowrap w-4/5 mx-6 justify-start 
+    @apply block
 }
+/* md:flex lg:flex-nowrap w-4/5 mx-auto justify-start  */
 
 .f-icons{
     @apply  w-7 h-7 p-1 my-2 mx-1 
@@ -72,3 +73,32 @@ h3{
 .c-flex{
     @apply flex justify-between items-center
 }
+
+.divs{
+    @apply block w-3/4 m-auto md:flex flex-wrap  justify-center 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .address{
+    @apply block w-3/4 m-auto text-center sm:w-2/4 sm:h-auto sm:flex sm:flex-nowrap
+}
+
+.map{
+    @apply bg-slate-800 w-full h-60 m-3
+}
+.address-content{
+    @apply block
+}
+ */

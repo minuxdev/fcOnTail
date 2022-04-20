@@ -1,12 +1,18 @@
 
 
 
-function open_menu(){
+function open_menu(e){
     var menu = document.getElementById("drop-menu");
-    menu.style.height = "420px"
+    var close = document.getElementById("t-close");
+    menu.style.display = "block";
+    e.style.display = "none";
+    close.style.display = "block";
 }
 
-function close_menu(){
+function close_menu(e){
     var menu_close = document.getElementById("drop-menu");
-    menu_close.style.height = "0px"
+    var _open = document.getElementById("t-open");
+    menu_close.style.display = "none";
+    e.style.display = "none";
+    _open.style.display = "block";
 }
