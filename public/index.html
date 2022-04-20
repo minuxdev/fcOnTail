@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Formas Criativas</title>
+</head>
+
+<body class="text-slate-600 text-base relative">
+    <header class="m-py flex sm:flex-wrap justify-between items-center px-4 py-6 border-b-2 relative">
+        <a class="text-blue-900 md:text-slate-200 font-bold md:bg-blue-900 py-2 md:px-4  rounded-md" href="#">Formas Criativas</a>
+        <ul class="p-2 hidden md:flex md:flex-wrap">
+            <li><a class="font-semibold text-slate-700 p-1 m-1" href="#">Sobre</a></li>
+            <li><a class="font-semibold text-slate-700 p-1 m-1" href="#">Servicos</a></li>
+            <li><a class="font-semibold text-slate-700 p-1 m-1" href="#">Contactos</a></li>
+            <li><a class="font-semibold text-slate-700 p-1 m-1" href="#">Portfolio</a></li>
+        </ul>
+        <div  class="w-10 h-8 absolute top-6 right-4 px-2 md:hidden cursor-pointer" onclick="open_menu()">
+            <img class="contact-icons" src="./icons/menu.png" alt="fb">
+        </div>
+        <div  class="hidden w-10 h-8 absolute top-6 right-4 px-2 md:hidden cursor-pointer">
+            <img class="contact-icons" src="./icons/close.png" alt="fb">
+        </div>
+    </header>
+    <nav id="drop-menu" class="m-py text-center overflow-hidden h-40">
+        <ul class="m-auto ">
+            <li><a class="font-semibold text-slate-700 p-1 m-1" href="#">Sobre</a></li>
+            <li><a class="font-semibold text-slate-700 p-1 m-1" href="#">Servicos</a></li>
+            <li><a class="font-semibold text-slate-700 p-1 m-1" href="#">Contactos</a></li>
+            <li><a class="font-semibold text-slate-700 p-1 m-1" href="#">Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <section class="h1-size bg-black font-bold text-slate-100 my-8 px-4 py-6">
+        <h1 class="p-2 m-4 text-center">EXPLORE AS DIVERSAS FORMAS CRIATIVAS</h1>
+        <!-- <iframe class="top-cards" src="https://tailwindcss.com/" title="Play My Video"></iframe> -->
+        <video class="video" controls loop>
+            <source src="videos/clip1.mp4" type="video/mp4">
+            Your browser doesn't support videos
+        </video>
+
+    </section>
+    <main class="m-py px-4">
+        <article id="about-us">
+            <h2 class="mt-10 mb-4 p-1 font-semibold border-b">Sobre Nos</h2>
+            <p>
+                Incididunt nostrud nulla laborum minim ut esse laboris ad. Aliqua nulla sit eiusmod ut et
+                aute culpa deserunt. Aliquip dolore sint aliqua deserunt dolore id. Esse nostrud commodo
+                cillum ea occaecat non minim officia. Aliqua aute cupidatat occaecat exercitation aliqua.
+            </p>
+            <br>
+            <p>
+                Incididunt nostrud nulla laborum minim ut esse laboris ad. Aliqua nulla sit eiusmod ut et
+                aute culpa deserunt. Aliquip dolore sint aliqua deserunt dolore id. Esse nostrud commodo
+                cillum ea occaecat non minim officia. Aliqua aute cupidatat occaecat exercitation aliqua.
+                Incididunt nostrud nulla laborum minim ut esse laboris ad. Aliqua nulla sit eiusmod ut et
+                aute culpa deserunt. Aliquip dolore sint aliqua deserunt dolore id. Esse nostrud commodo
+                cillum ea occaecat non minim officia. Aliqua aute cupidatat occaecat exercitation aliqua.
+                Incididunt nostrud nulla laborum minim ut esse laboris ad. Aliqua nulla sit eiusmod ut et
+                aute culpa deserunt. Aliquip dolore sint aliqua deserunt dolore id. Esse nostrud commodo
+                cillum ea occaecat non minim officia. Aliqua aute cupidatat occaecat exercitation aliqua.
+            </p>
+            <br>
+            <button class="btn w-32">Baixar Perfil</button>
+        </article>
+    </main>
+    <section class="m-py block bg-blue-900 my-6">
+        <h2 class="text-slate-100 p-6 font-semibold text-center border-b">Onde actuamos</h2>
+        <section class=" text-gray-100 py-4  flex flex-wrap justify-around items-center">
+            <div class="card">
+                <figure>
+                    <img src="../icons/DesignGrafico.svg" alt="" />
+                </figure>
+                <h3>Design Grafico</h3>
+                <p>Incididunt consequat reprehenderit sint tempor.
+                    Esse ad id laboris labore exercitation aliqua do do ad culpa.
+                    Occaecat commodo fugiat fugiat ea in ipsum.</p>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="../icons/Motion Design.svg" alt="" />
+                </figure>
+                <h3>Motion Design</h3>
+                <p>Incididunt consequat reprehenderit sint tempor.
+                    Esse ad id laboris labore exercitation aliqua do do ad culpa.
+                    Occaecat commodo fugiat fugiat ea in ipsum.</p>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="../icons/WebSite.svg" alt="" />
+                </figure>
+                <h3>Web Design</h3>
+                <p>Incididunt consequat reprehenderit sint tempor.
+                    Esse ad id laboris labore exercitation aliqua do do ad culpa.
+                    Occaecat commodo fugiat fugiat ea in ipsum.</p>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="../icons/Prpgramacao.svg" alt="" />
+                </figure>
+                <h3>Programacao</h3>
+                <p>Incididunt consequat reprehenderit sint tempor.
+                    Esse ad id laboris labore exercitation aliqua do do ad culpa.
+                    Occaecat commodo fugiat fugiat ea in ipsum.</p>
+            </div>
+
+
+            <div class="card">
+                <figure>
+                    <img class="white" src="../icons/Prpgramacao.svg" alt="" />
+                </figure>
+                <h3>Redes de Computadores</h3>
+                <p>Incididunt consequat reprehenderit sint tempor.
+                    Esse ad id laboris labore exercitation aliqua do do ad culpa.
+                    Occaecat commodo fugiat fugiat ea in ipsum.</p>
+            </div>
+        </section>
+    </section>
+
+    <form class="m-py sm:py-4 my-4" action="#" method="POST">
+        <div class="my-6 sm:py-6">
+            <h2 class="text-center font-semibold uppercase ">Conte-nos sobre a sua experiencia no WebSite</h2>
+        </div>
+        <div class=" f-d-input">
+            <input class="f-input" type="text" name="name" placeholder="Name" required>
+            <input class="f-input" type="email" name="email" placeholder="Email" required>
+        </div>
+
+        <div class="f-d-input">
+            <input class="f-input" type="text" name="services" placeholder="Servico">
+            <input class="f-input" type="tel" name="contacto" placeholder="Contacto" required>
+        </div>
+        <textarea class="resize-none border-b-2 border-l-2 rounded-md w-full px-4 py-2 mx-auto my-6" name="message"
+            cols="30" rows="4" placeholder="Deixe a sua mensagem"></textarea>
+            <button class="btn w-32 my-2">Enviar</button>
+
+    </form>
+
+    <div class="m-py block md:flex md:flex-wrap justify-between items-center py-2 my-2">
+        <!--google map-->
+        <div class="contact  ">
+            <address class="md:flex lg:flex-nowrap items-center justify-start">
+                <figure class="w-2/3 md:w-auto m-auto">
+                    <img class="white m-auto" src="../icons/fb.png" alt="" />
+                </figure>
+                <div  class="contact-info text-center">
+                    <span class="block m-1 mx-2 p-1">2224 Av. 25 de Setembro, Maputo</span>
+                    <span class="block m-1 p-1">Aberto ⋅ Fecha às 17:00</span>
+                </div>
+            </address>
+        </div>
+
+        <div class="contact ">
+            <div class="flex flex-nowrap items-center justify-center md:justify-start md:w-4/5 m-auto">
+                <img class="contact-icons" src="./icons/phone.png" alt="fb">
+                <div  class="contact-info">
+                    <span class="block m-1 mx-2 p-1">+258 84 55 47 966</span>
+                    <span class="block m-1 p-1">+258 86 55 47 966</span>
+                </div>
+            </div>
+            <div class="flex flex-nowrap items-center justify-start md:w-2/3 m-auto">
+                <img class=" contact-icons" src="./icons/email.png" alt="fb">
+                <div class="contact-info">
+                    <span class="block m-1 p-2">formas@criativas.co.mz</span>
+                    <span class="blobk m-1 p-2">ernesto@criativo.co.mz</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="m-py">
+        <div class="c-flex">
+            <div class="flex flex-nowrap justify-between items-center">
+                <a  href="#"><img class="f-icons" src="./icons/fb.png" alt="fb"></a>
+                <a  href="#"><img class="f-icons" src="./icons/inst.png" alt="fb"></a>
+                <a  href="#"><img class="f-icons" src="./icons/twt.png" alt="fb"></a>
+                <a  href="#"><img class="f-icons" src="./icons/tlgm.png" alt="fb"></a>
+            </div>
+
+            <p class="hidden sm:block md:w-1/4 text-sm">formas criativas@2021</p>
+
+            <a href="#"><img class=" w-8 h-8" src="./icons/fc.png" alt="fb"></a>
+        </div>
+        <hr>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

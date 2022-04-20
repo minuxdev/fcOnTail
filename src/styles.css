@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*  custom class    */
+h2{
+    @apply text-xl
+}
+h3{
+    @apply text-lg font-semibold
+}
+
+.m-py{
+    @apply p-6 sm:px-7 lg:px-10 2xl:px-20 lg:py-7;
+}
+
+.h1-size{
+    @apply sm:p-7 lg:py-10 2xl:py-20 max-w-full;
+}
+
+.video{
+    @apply max-w-xl m-auto lg:w-full h-96 bg-black;
+} 
+/* .top-cards figure{
+    @apply w-full
+} */
+
+.btn{
+    @apply text-gray-100 font-semibold bg-blue-900 py-1 px-2 rounded-md;
+}
+.card{
+    @apply w-96 sm:w-72  sm:border-b rounded-sm border-slate-400 text-center m-3 p-4;
+}
+
+.card figure {
+    @apply w-20 m-auto;
+}
+
+.card p{
+    @apply break-words text-justify;
+}
+
+.card h2{
+    @apply my-2 p-1 font-semibold;
+}
+
+.f-d-input{
+    @apply sm:flex sm:flex-wrap sm:justify-between sm:items-center my-1 px-2 py-1;
+}
+
+.f-input{
+    @apply md:w-5/12 rounded-sm border-b border-l my-6 block px-4 py-2 
+}
+
+.contact{
+    @apply block  md:w-2/3 m-auto
+}
+
+.contact-icons {
+    @apply inline w-5 h-5
+}
+
+.contact-info {
+    @apply block md:flex lg:flex-nowrap w-4/5 mx-6 justify-start 
+}
+
+.f-icons{
+    @apply  w-7 h-7 p-1 my-2 mx-1 
+}
+
+.c-flex{
+    @apply flex justify-between items-center
+}
