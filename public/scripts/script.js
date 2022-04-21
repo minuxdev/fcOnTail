@@ -10,9 +10,9 @@ function open_menu(e){
 }
 
 function close_menu(e){
-    var menu_close = document.getElementById("drop-menu");
+    var menu = document.getElementById("drop-menu");
     var _open = document.getElementById("t-open");
-    menu_close.style.display = "none";
+    menu.style.display = "none";
     e.style.display = "none";
     _open.style.display = "block";
 }

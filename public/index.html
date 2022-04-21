@@ -22,10 +22,10 @@
             <li><a class="font-semibold text-slate-700 p-1 m-1" href="#">Contactos</a></li>
             <li><a class="font-semibold text-slate-700 p-1 m-1" href="#">Portfolio</a></li>
         </ul>
-        <div id="t-open"  class="w-10 h-8 absolute top-6 right-4 px-2 md:hidden cursor-pointer" onclick="open_menu(this)">
+        <div id="t-open"  class=" md:hidden toggle" onclick="open_menu(this)">
             <img class="contact-icons" src="./icons/menu.png" alt="fb">
         </div>
-        <div id="t-close" class="hidden w-10 h-8 absolute top-6 right-4 px-2 md:hidden cursor-pointer" onclick="close_menu(this)">
+        <div id="t-close" class="hidden toggle" onclick="close_menu(this)">
             <img class="contact-icons" src="./icons/close.png" alt="fb">
         </div>
     </header>
@@ -47,7 +47,7 @@
         </video>
 
     </section>
-    <main class="m-py px-4">
+    <main class="m-py">
         <article id="about-us">
             <h2 class="mt-10 mb-4 p-1 font-semibold border-b">Sobre Nos</h2>
             <p>
@@ -129,7 +129,7 @@
 
     <form class="m-py sm:py-4 my-4" action="#" method="POST">
         <div class="my-6 sm:py-6">
-            <h2 class="text-center font-semibold ">Em que podemos ajudar</h2>
+            <h2 class="text-center font-semibold ">Conte-nos como podemos ajudar</h2>
         </div>
         <div class=" f-d-input">
             <input class="f-input" type="text" name="name" placeholder="Name" required>
@@ -147,7 +147,7 @@
 
 
     <section class="m-py my-2">
-        <h2 class="text-center font-semibold my-4">Como e onde nos achar</h2>
+        <h2 class="text-center font-semibold my-4">Como e onde nos encontrar</h2>
         <div class="lg:flex lg:flex-nowrap lg:w-4/5 xl:w-2/3 m-auto justify-center items-center">
             <div class="divs md:w-4/5 md:m-auto">
                 <figure class="w-64 h-64 m-auto md:w-1/3 lg:hidden">
@@ -155,7 +155,8 @@
                 </figure>
                 <address class="text-center my-4 md:w-2/3 md:text-left md:p-5">
                     <div class="my-2 p-2"><b>Endereço: <br class="hidden lg:block"> </b>2069 Av. de Moçambique, Maputo</div>
-                    <div class="my-2 p-2"><b>Endereço: <br class="hidden lg:block"></b>2069 Av. de Moçambique, Maputo</div>
+                    <div class="my-2 p-2"><b>Slogan: <br class="hidden lg:block"></b>Formas Criativas, explore as diversar formas de ser cri(ativo)</div>
+                    <div class="my-2 p-2"><b>Gerente: <br class="hidden lg:block"></b>Ernesto Gubana</div>
                     <div class="my-2 p-2"><b>Horário: <br class="hidden lg:block"></b>Fechado ⋅ Abre às 07:30</div>
                 </address>
             </div>
@@ -192,7 +193,7 @@
                 <a  href="#"><img class="f-icons" src="./icons/tlgm.png" alt="fb"></a>
             </div>
 
-            <p class="hidden sm:block md:w-1/4 text-sm">formas criativas@2021</p>
+            <p class="hidden sm:block md:w-1/2 text-sm text-left">formas criativas@2021</p>
 
             <a href="#"><img class=" w-7 h-7" src="./icons/fc.png" alt="fb"></a>
         </div>

@@ -12,7 +12,11 @@ h3{
 }
 
 .m-py{
-    @apply p-6 sm:px-7 lg:px-10 2xl:px-20 lg:py-7;
+    @apply p-4 sm:px-7 lg:px-10 2xl:px-20 lg:py-7;
+}
+
+.toggle{
+    @apply w-10 h-8 absolute top-6 right-4 px-2 cursor-pointer
 }
 
 .h1-size{
@@ -22,9 +26,6 @@ h3{
 .video{
     @apply max-w-xl m-auto lg:w-full h-96 bg-black;
 } 
-/* .top-cards figure{
-    @apply w-full
-} */
 
 .btn{
     @apply text-gray-100 font-semibold bg-blue-900 py-1 px-2 rounded-md;
@@ -64,7 +65,6 @@ h3{
 .contact-info {
     @apply block
 }
-/* md:flex lg:flex-nowrap w-4/5 mx-auto justify-start  */
 
 .f-icons{
     @apply  w-7 h-7 p-1 my-2 mx-1 
